@@ -10,7 +10,7 @@ RUN chmod a+x /run.sh
 
 # Home Assistant requires these labels
 LABEL \
-    io.hass.name="TriliumNext Notes" \
+    io.hass.name="Trilium Notes" \
     io.hass.description="Hierarchical note-taking application" \
     io.hass.version="${BUILD_VERSION}" \
     io.hass.type="addon" \

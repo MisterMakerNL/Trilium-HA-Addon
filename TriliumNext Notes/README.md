@@ -1,10 +1,10 @@
 ![128x128](https://github.com/user-attachments/assets/7b39fd05-4c0d-46f3-8283-117e2093f3e3)
 
-# TriliumNext Notes for Home Assistant
+# Trilium Notes for Home Assistant
 
 ## About
 
-This addon installs TriliumNext Notes, a hierarchical note-taking application focused on building a personal knowledge base. Trilium offers comprehensive note-taking capabilities with Markdown support, encryption, synchronization, and many other features.
+This addon installs Trilium Notes, a hierarchical note-taking application focused on building a personal knowledge base. Trilium offers comprehensive note-taking capabilities with Markdown support, encryption, synchronization, and many other features.
 
 
 ## Installation
@@ -24,9 +24,9 @@ This addon installs TriliumNext Notes, a hierarchical note-taking application fo
 
 When running for the first time, the stup will start. Please note:
 
-- **Important**: During initial setup, TriliumNext Notes will display the IP address and port of Home Assistant. This is normal behavior caused by Home Assistant's ingress system.
+- **Important**: During initial setup, Trilium Notes will display the IP address and port of Home Assistant. This is normal behavior caused by Home Assistant's ingress system.
 
-- Ignore the displayed URL and instead use the Home Assistant interface to access TriliumNext Notes (via the addon or sidebar).
+- Ignore the displayed URL and instead use the Home Assistant interface to access Trilium Notes (via the addon or sidebar).
 
 - Create a user for and set a secure password.
 
@@ -46,11 +46,11 @@ All data is stored in the `/home/node/trilium-data` directory. This directory is
 
 It's recommended to create regular backups using the Home Assistant backup function. These will include your Notes data.
 
-You can also create manual backups within TriliumNext Notes under **Options** → **Backup**.
+You can also create manual backups within Trilium Notes under **Options** → **Backup**.
 
 ## Known Issues
 
-### URL Path in TriliumNext Notes Interface
+### URL Path in Trilium Notes Interface
 
 During initial setup and in some dialogs, TriliumNext Notes might show the incorrect URL (with Home Assistant host:port instead of the ingress path). This is known behavior and doesn't affect functionality.
 
@@ -59,7 +59,7 @@ During initial setup and in some dialogs, TriliumNext Notes might show the incor
 
 ### Addon won't Start
 
-- Check the addon logs under **Settings** → **Add-ons** → **TriliumNext Notes** → **Logs**
+- Check the addon logs under **Settings** → **Add-ons** → **Trilium Notes** → **Logs**
 - Ensure required ports aren't being used by other services
 
 ### Web Interface Doesn't Load Completely
@@ -76,4 +76,4 @@ For issues or questions related to the addon, please create an issue in the [Git
 
 This addon is licensed under the [MIT License](LICENSE).
 
-TriliumNext Notes itself is licensed under the [GNU AFFERO GENERAL PUBLIC LICENSE](https://github.com/TriliumNext/Notes/blob/develop/LICENSE).
+Trilium Notes itself is licensed under the [GNU AFFERO GENERAL PUBLIC LICENSE](https://github.com/TriliumNext/Notes/blob/develop/LICENSE).
