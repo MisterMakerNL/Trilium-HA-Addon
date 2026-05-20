@@ -3,7 +3,7 @@ name: "Trilium Notes"
 version: "v2025.11.30"
 slug: trilium
 description: "Hierarchical note-taking application with encryption, Markdown support, and personal knowledge base features"
-url: "https://github.com/triliumnext/trilium"
+url: "https://github.com/MisterMakerNL/Trilium-HA-Addon"
 ingress: true
 ingress_port: 8080
 ingress_stream: true
